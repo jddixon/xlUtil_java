@@ -19,6 +19,7 @@ public interface Connector {
      * 
      * @param nearEnd  local end point to use for connection
      * @param blocking whether the new Connection is to be blocking
+     * @throws IOException if not in appropriate state
      */
     public Connection connect (EndPoint nearEnd, boolean blocking) 
                                                 throws IOException;

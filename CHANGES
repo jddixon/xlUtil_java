@@ -1,5 +1,9 @@
-pa:~jdd/dev/java/xlattice/util/CHANGES
+java/xlatticeUtil_java/CHANGES
 
+v0.3.16
+    2016-05-23
+        * split off from xlattice_java project
+        * add bkp2U, other bash scripts, .dvcz; fixed build.sh      SLOC 4346
 v0.3.15
     2015-12-22
         * clean build.xml                                           SLOC 3924
@@ -20,6 +24,8 @@ v0.3.10                                                             SLOC 3554
         * created TestStack by cloning TestArrayStack and then 
             editing; this becomes a guide to how to replace 
             ArrayStack (deprecated) with util.Stack
+
+
 
 
 

@@ -83,8 +83,11 @@ public interface Connection {
      * near or far end point has already been set, this will 
      * cause an exception.  If successful, the connection's
      * state becomes BOUND.
+     *
+     * @param p the near end
+     * @throws IOException if either end point already set
      */
-    public void bindNearEnd(EndPoint p)     throws IOException;
+    public void bindNearEnd(EndPoint p) throws IOException;
     
     /**
      * Set the far end point of a connection.  If the near end
@@ -96,11 +99,16 @@ public interface Connection {
      *
      * XXX The state should become CONNECTED if the far end is on
      * XXX the same host and PENDING if it is on a remoted host.
+     *
+     * @param p the far end
+     * @throws IOException if near end point not set or far end already set
      */
-    public void bindFarEnd(EndPoint p)      throws IOException;
+    public void bindFarEnd(EndPoint p)  throws IOException;
     
     /**
      * Bring the connection to the DISCONNECTED state.
+     *
+     * @throws IOException if not in appropriate state (if not connected)
      */
     public void close ()                    throws IOException;
 

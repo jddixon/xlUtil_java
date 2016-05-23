@@ -8,9 +8,9 @@ import java.util.HashMap;
  * bindings.  If there is a parent context and a key cannot be resolved
  * in this context, an attempt will be made to resolve it in the parent,
  * recursively.
- * <p/>
+ * 
  * Names added to the context must not be null.
- * <p/>
+ * 
  * This implementation is intended to be thread-safe.
  * 
  * @author Jim Dixon
@@ -20,11 +20,16 @@ public class Context {
     private Context parent;
 
     // CONSTRUCTORS /////////////////////////////////////////////////
-    /** Create a context without a parent. */
+    /** 
+     * Create a context without a parent. 
+     */ 
     public Context () {
         ctx = new HashMap();
     }
-    /** Create a context with a parent Context. */
+    /** 
+     * Create a context with a parent Context. 
+     * @param parent the parent context
+     */
     public Context (Context parent) {
         this();
         this.parent = parent;
@@ -33,7 +38,7 @@ public class Context {
     /**
      * Bind a name to an Object at this Context level.  Neither name
      * nor object may be null.
-     * <p/>
+     * 
      * If this context has a parent, the binding at this level will
      * mask any bindings in the parent and above.
      * 
