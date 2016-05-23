@@ -10,7 +10,11 @@ public class AddressException extends Exception {
     public AddressException () {
         super();
     }
-    /** Constructor taking a single String argument. */
+    /** 
+     * Constructor taking a single String argument. 
+     *
+     * @param msg that argument
+     */
     public AddressException (String msg) {
         super(msg);
     }

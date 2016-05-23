@@ -10,7 +10,7 @@ package org.xlattice;
  * There should be a subclass of Version in the main source 
  * directory of each XLattice component.  For example, CoreXml
  * has one as org.xlattice.corexml.Version.  The source files for 
- * these <emp>should</emp> be automatically generated but are
+ * these <strong>should</strong> be automatically generated but are
  * currently being manually updated.
  *
  * Together the major, minor, and optional decimal version number 

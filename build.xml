@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project default="test" name="util" basedir=".">
   <property name="name"           value="util"/>
-  <property name="version"        value="0.3.15"/>
-  <property name="versionDate"    value="2015-12-22"/>
+  <property name="version"        value="0.3.16"/>
+  <property name="versionDate"    value="2016-05-23"/>
   <!-- manual addition -->
-  <property name="project_name"   value="xlattice"/>
+  <property name="project_name"   value="xlatticeUtil_java"/>
   <!-- ======================================================= -->
   <!-- S O U R C E   P R O P E R T I E S                       -->
   <!-- ======================================================= -->
   <!-- this is an XLattice subproject, so root_dir is one up   -->
-  <property name="root_dir"       value=".."/>
+  <property name="root_dir"       value="../xlattice_java"/>
   <property name="src_dir"        value="src/java"/>
   <property name="test_src_dir"   value="src/test"/>
   <property name="xdoc_dir"       value="xdocs"/>
@@ -18,7 +18,9 @@
   <!-- ======================================================= -->
   <property name="build_dir" value="target"/>
   <property name="classes_dir"      value="${build_dir}/classes"/>
-  <property name="lib_dir"          value="../lib"/>
+  
+  <!-- 2016-05-23 a significant change -->
+  <property name="lib_dir"          value="${root_dir}/lib"/>
   <property name="test_classes_dir" value="${build_dir}/test-classes"/>
   <property name="test_report_dir"  value="${build_dir}/test-reports"/>
   <property name="javadoc_dir"
@@ -162,7 +164,7 @@
     <mkdir  dir="${dist_dir}/${component}"/>
     <!-- text files   -->
     <copy todir="${dist_dir}/${component}" >
-      <fileset dir="${basedir}" includes="../LICENSE*, README*"/>
+      <fileset dir="${basedir}" includes="${root_dir}/LICENSE*, README*"/>
     </copy>
     <!-- jar for this component -->
     <copy todir="${dist_dir}/lib/xlattice" >
@@ -178,7 +180,7 @@
         <fileset dir="${lib_dir}/junit" includes="junit-4.1.jar"/>
     </copy>
     <!-- project control files -->
-    <copy todir="${dist_dir}/${component}" file="../LICENSE.html" />
+    <copy todir="${dist_dir}/${component}" file="${root_dir}/LICENSE.html" />
     <copy todir="${dist_dir}/${component}" file="build.xml" />
     <copy todir="${dist_dir}/${component}" file="project.properties" />
     <copy todir="${dist_dir}/${component}" file="project.xml" />
@@ -237,4 +239,6 @@
     <delete dir="${dist_dir}"/>
   </target>
 </project>
+
+
 
