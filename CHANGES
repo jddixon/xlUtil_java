@@ -1,5 +1,8 @@
-java/xlatticeUtil_java/CHANGES
+java/xlUtil_java/CHANGES
 
+v0.3.17
+    2016-07-10
+        * add ghpDoc/{css,img}                                      SLOC 5307
 v0.3.16
     2016-05-23
         * split off from xlattice_java project
@@ -24,6 +27,7 @@ v0.3.10                                                             SLOC 3554
         * created TestStack by cloning TestArrayStack and then 
             editing; this becomes a guide to how to replace 
             ArrayStack (deprecated) with util.Stack
+
 
 
 

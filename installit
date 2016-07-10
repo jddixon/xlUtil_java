@@ -2,7 +2,7 @@
 
 if [ ! -z "${DEV_BASE// }" ]
 then
-  cd $DEV_BASE/java/xlatticeUtil_java
+  cd $DEV_BASE/java/xlUtil_java
   
   ./build.sh dist
   
