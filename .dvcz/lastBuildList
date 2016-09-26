@@ -7,25 +7,28 @@ zPjEShF9rvcNa9XEy1dKpcDz9Szbm2SlxOgM83fDDGtOq4SSCSqndtxrOvXXPB57
 H1mJV/FmerbXRPm5ERJVNIxtLk7Gr2Ce45FVlWyJGMhpfVlKkkk+bRQ02OFfazJI
 GQIDAQAB
 -----END RSA PUBLIC KEY-----
-xlUtil_java v0.3.17
-2016-07-10 22:05:12
-# START CONTENT #
+xlUtil_java v0.3.18
+2016-09-26 20:25:17
+# BEGIN CONTENT #
 xlUtil_java
  .dvcz
-  builds 4d9f8dc9185fb69943c2ca91011ba8c8c16fee6b
-  lastBuildList 1457767a83b89613bd8600be9be027bfa5654da3
-  projCfg f310e3b81e4258c8eac5baae431e3df4a834060e
-  version 66e9dac19dac59fdf74f73342ba96f80b1611a37
+  builds 559acf1ea1ebd2c1f01eb02f9e1d1ba3f42b96de
+  copyright fdc6cab0fd7077cddba743c357a0e48e7179c181
+  lastBuildList cdb8f3e2a585c2a887054ad70e4859e99c9c9230
+  license 31158001bd41a34771e96dad11a089f4863dea28
+  projCfg ffa9e15258aea671cdb08b3df26996eb7a059e8d
+  projCfg.local d9f7145d1dcc5ae90ae8efe183562c24f5149d53
+  version 26dee4b867c9af1f5c46f7cf201281c2288accf9
  .gitignore 73b879f8842850058bca4519cca9b24d39bcf052
- CHANGES 855b79a67a0ae33cc6b2f511feb4c1999551d42d
- LICENSE.md 50a6fc1b15e967d1dc37ba7559cf121a66240830
+ CHANGES c9ee872ad03b03d665e7e7e5c67071e2e00eac07
+ LICENSE-XLATTICE.md bee3a87aa2ec7180859e80c7d7e6167a9c60a26a
  README.md e529094d520fe6095e465d7fc21e03c09130084a
  TODO f00b8738396840913f370c50d60d61f59914790f
  bkp2U 5491329f57f142906d89ad57a1ace9457fd8290d
  build.sh 8844d742637d7668927c8c39cc2fba6e6b8736d7
- build.xml c5efe5453c5f3bde41c50325ffc07bad62f2404a
+ build.xml d6b3650d894c1e52a0918ff7842f5a6accdf5cc3
  classpath.sh 76a2ec0287f67fe1074714657aa637f2f706576f
- countem a26aa3ab5cff2ff30d2345bcccd4e9d85c104746
+ countem 6ad49a06db8d399f3176aa3a0888efa7d01f692b
  ghpDoc
   css
    LICENSE.html5-boilerplate.md ded771b3245b190da0e81c76de5a80d41392c0a6
@@ -84,7 +87,7 @@ xlUtil_java
       StringLib.java 91f1e3138f4f8c4d7183d3d58dad038681293ec4
       Timestamp.java e7bd0adad0ddc37ea5f57f8d0b10ff35b93ff3d6
       UIntLib.java 686f4c45e89c20c5c6ac7ce94898c7976de5aa6b
-      Version.java c950200c21e8d2fd03ed9c05edfe275319c88c4e
+      Version.java d628c02b72e152498c8f7e4a0ef0798a264578b0
       cmdline
        ArgCursor.java 3331203979783592b8235a174452b65665326cac
        Bindery.java d6a50b2a728ba569a19621f0888675edb989abdf
@@ -152,4 +155,4 @@ xlUtil_java
  xdocs
 # END CONTENT #
 
-Adl7tPn7By0CIsNlGZiLsb77Rsjl57jhextvhHMw/9MPof9cuHxlUpXmnypO3mxGA415faJsrRAtOhsyKC5kQfXZr4vuug0P4zF4fcZSg3WKKeBc8rUp14Og8rLz6V0qiIrJGcnPk4mYZdMlfaNTG/tLFLuiqqPCcpnWlzznGs4r/JRbjcJiwi1j7+2ciHoIAEH3Yv6KVZk6Na7Ku2gHp4yDtsx/y/3aygrVBmd5u1jOzxzVtOTQzuZ816H1M+plHrx50aEwykXJS9CFrbQC8CF2kRjlxsc2ztdia4sAsQ+wqwm/Zt+ngi7o+g7t91YjaZQNmmqNDQvan2Xl7C7zwA==
+jwEhde1Wpq/nJr1GPVGt55Q/L99ZApPcDgMzUIx7isVFOjlGKS/cttTmJuT/Y2hPqFqNIY8Qq6keUacUF93cra4y5ZmNrKM6wMJAQm0rGiblBixTwNzikgbs2XZmd+gwgPt8eGZlSJaNbHUcDKPsKsTTy4bc2ldeJYRVMzu1mzr1laOm61Aw+VMRjRud9BObG9al42T6Iw3Aucr2Mq5xmxqKFgeZfdVt6i4u/KFnzLeWmFwUnw4UiCVAyvxgLGEOpjrIOHWWzAM88yebBxBSp4VRWi1bEcw47UzVId+5O+/iVdkeL9dXED6iHa2yHLNEHdjG+cTyeUgdyoSxVemzGg==
